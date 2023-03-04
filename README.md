@@ -1,3 +1,3 @@
 #  Learning AWS From Scratch
-## AWS Documentation => AWS Documentation
-## AWS Products Intro => https://aws.amazon.com/products/
+## AWS Products Intro => https://aws.amazon.com/products
+## AWS Documentation => https://docs.aws.amazon.com/index.html
