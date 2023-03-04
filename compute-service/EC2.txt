@@ -1,0 +1,1 @@
+EC2 is secure and resizable compute capacity for virtually any workload
