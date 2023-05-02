@@ -1,1 +1,3 @@
 To list the contents of an S3 bucket using the AWS CLI, you can use the aws s3 ls command followed by the name of the S3 bucket. Here's an example => aws s3 ls s3://my-bucket-name
+
+This will list all the objects in the my-bucket-name bucket. If you want to list only the objects in a specific subdirectory within the bucket, you can append the subdirectory path to the bucket name => aws s3 ls s3://my-bucket-name/my-subdirectory
