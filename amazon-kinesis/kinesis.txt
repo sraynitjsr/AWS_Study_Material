@@ -1,0 +1,1 @@
+Amazon Kinesis Data Streams to collect and process large streams of data records in real time.
