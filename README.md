@@ -3,3 +3,6 @@
 ## AWS Documentation => https://docs.aws.amazon.com/index.html
 
 ## Service #1. Amazon EC2 [Elastic Compute Cloud]
+
+## Service #2. Amazon S3
+
