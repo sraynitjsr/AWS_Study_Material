@@ -1,3 +1,0 @@
-EC2 is secure and resizable compute capacity for virtually any workload.
-
-Amazon Elastic Compute Cloud (Amazon EC2) offers highly dependable, scalable compute platform with over 500 instances and choices of the latest processor, storage,  networking, operating system, and purchase model to help customers best match the needs of their workload.
