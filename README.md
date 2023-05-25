@@ -6,3 +6,5 @@
 
 ## Service #2. Amazon S3
 
+## Service #4. Amazon DynamoDB
+
