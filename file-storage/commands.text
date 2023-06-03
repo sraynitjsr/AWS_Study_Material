@@ -1,0 +1,25 @@
+## Install the AWS CLI First
+
+# Create an S3 Bucket
+aws s3 mb s3://bucket-name
+
+# Upload an Object (File) to a Bucket
+aws s3 cp /path/to/local/file s3://bucket-name/key-prefix/
+
+# Download an Object (File) from a Bucket
+aws s3 cp s3://bucket-name/key s3://local-directory/
+
+# Delete an Object (File) from a Bucket
+aws s3 rm s3://bucket-name/key
+
+# Delete a Bucket
+aws s3 rb s3://bucket-name
+
+# List Buckets
+aws s3 ls
+
+# List Objects in a Bucket
+aws s3 ls s3://bucket-name
+
+# Sync Local Directory to a Bucket
+aws s3 sync /path/to/local/directory s3://bucket-name/key-prefix/
