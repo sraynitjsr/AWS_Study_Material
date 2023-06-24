@@ -1,0 +1,18 @@
+AWS offers technologies for running code, managing data, and integrating applications, all without managing servers. Serverless technologies feature automatic scaling, built-in high availability, and a pay-for-use billing model to increase agility and optimize costs.
+
+These technologies also eliminate infrastructure management tasks like capacity provisioning and patching, so you can focus on writing code that serves your customers. Serverless applications start with AWS Lambda, an event-driven compute service natively integrated with over 200 AWS services and software as a service (SaaS) applications.
+
+Move from idea to market, faster
+    ---- Eliminate operational overhead so your teams can release quickly, get feedback, and iterate to get to market faster.
+
+Lower your costs
+    ---- With a pay-for-value billing model, resource utilization is automatically optimized and you never pay for over-provisioning.
+
+Adapt at scale
+
+    ---- With technologies that automatically scale from zero to peak demands, you can adapt to customer needs faster than ever.
+
+Build better applications, easier
+
+    ---- Serverless applications have built-in service integrations, so you can focus on building your application instead of configuring it.
+
