@@ -1,0 +1,48 @@
+Extend other AWS services with custom logic
+    ---- AWS Lambda allows you to add custom logic to AWS resources such as Amazon S3 buckets and Amazon DynamoDB tables, so you can easily apply compute to data as it enters or moves through the cloud.
+    ---- It is easy to get started with AWS Lambda. First, you create your function by uploading your code (or building it right in the Lambda console) and choosing the memory, timeout period, and AWS Identity and Access Management (IAM) role. Then, you specify the AWS resource to trigger the function, which can be a particular Amazon S3 bucket, Amazon DynamoDB table, or  Amazon Kinesis stream. When the resource changes, Lambda will run your function, launching and managing the compute resources as needed to keep up with incoming requests.
+
+Build custom backend services
+    ---- You can use AWS Lambda to create new backend application services triggered on demand using the Lambda application programming interface (API) or custom API endpoints built using Amazon API Gateway. Lambda processes custom events instead of servicing these on the client, helping you avoid client platform variations, reduce battery drain, and enable easier updates.
+
+Bring your own code
+    ---- With AWS Lambda, there are no new languages, tools, or frameworks to learn. You can use any third- party library, even native ones. You can also package any code (frameworks, SDKs, libraries, and more) as a Lambda Layer, and manage and share them easily across multiple functions. Lambda natively supports Java, Go, PowerShell, Node.js, C#, Python, and Ruby code, and provides a Runtime API allowing you to use any additional programming languages to author your functions.
+
+Completely automated administration
+    ---- AWS Lambda manages all the infrastructure to run your code on highly available, fault tolerant infrastructure, freeing you to focus on building differentiated backend services. With Lambda, you never have to update the underlying operating system (OS) when a patch is released, or worry about resizing or adding new servers as your usage grows. AWS Lambda seamlessly deploys your code, handles all the administration, maintenance, and security patches, and provides built-in logging and monitoring through Amazon CloudWatch.
+
+Built-in fault tolerance
+    ---- AWS Lambda maintains compute capacity across multiple Availability Zones (AZs) in each AWS Region to help protect your code against individual machine or data center facility failures. Both AWS Lambda and the functions running on the service deliver predictable and reliable operational performance. AWS Lambda is designed to provide high availability for both the service itself and the functions it operates. There are no maintenance windows or scheduled downtimes.
+
+Package and deploy functions as container images
+    ---- AWS Lambda supports function packaging and deployment as container images, making it easy for customers to build Lambda-based applications using familiar container image tooling, workflows, and dependencies. Customers also benefit from Lambda’s operational simplicity, automatic scaling with sub-second startup times, high availability, pay-for-use billing model, and native integrations with over 200 AWS services and software-as-a service (SaaS) applications. Enterprise customers can use a consistent set of tools with both their Lambda and containerized applications, simplifying central governance requirements such as security scanning and image signing.
+
+Automatic scaling
+    ---- AWS Lambda invokes your code only when needed, and automatically scales to support the rate of incoming requests without any manual configuration. There is no limit to the number of requests your code can handle. AWS Lambda typically starts running your code within milliseconds of an event. Since Lambda scales automatically, the performance remains consistently high as the event frequency increases. Since your code is stateless, Lambda can start as many instances as needed without lengthy deployment and configuration delays.
+
+Connect to relational databases
+    ---- Use Amazon RDS Proxy to take advantage of fully managed connection pools for relational databases. RDS Proxy efficiently manages thousands of concurrent connections to relational databases, making it easy to build highly scalable, secure Lambda-based serverless applications interacting with relational databases. Currently, RDS Proxy offers support for MySQL and Aurora. You can use RDS Proxy for your serverless applications through the Amazon RDS console or AWS Lambda console.
+
+Fine-grained control over performance
+    ---- Provisioned Concurrency gives you greater control over your serverless application performance. When turned on, Provisioned Concurrency keeps functions initialized and hyper-ready to respond in double-digit milliseconds. Provisioned Concurrency is ideal for any AWS Lambda application requiring greater control over function start time. Easily configure and adjust the concurrency your application needs. Scale up, down, or turn it off completely depending on demand. Take advantage of Provisioned Concurrency to achieve consistent performance for latency-sensitive applications without changing your code or managing compute resources.
+
+Connect to shared file systems
+    ---- With Amazon Elastic File System (EFS) for AWS Lambda, you can securely read, write, and persist large volumes of data at low latency, at any scale. You don't need to write code and download data to temporary storage in order to process it. This saves time and simplifies the code, so you can focus on your business logic. EFS for Lambda is ideal for a range of use cases including processing or backing up large data amounts, and loading large reference files or models. You can also share files between serverless instances or container-based applications, and even run machine learning (ML) inference by using EFS for AWS Lambda.
+
+Run code in response to Amazon CloudFront requests
+    ---- With Lambda@Edge, AWS Lambda can run your code across AWS locations globally in response to Amazon CloudFront events, such as content requests to or from origin servers and viewers. This makes it easier to deliver richer, more personalized content to your end users with lower latency. 
+
+Orchestrate multiple functions
+    ---- Build AWS Step Functions workflows to coordinate multiple AWS Lambda functions for complex or long-running tasks. Step Functions lets you define workflows that trigger a collection of Lambda functions using sequential, parallel, branching, and error-handling steps. With Step Functions and Lambda, you can build stateful, long-running processes for applications and backends.
+
+Integrated security model
+    ---- AWS Lambda's built-in software development kit (SDK) integrates with AWS Identity and Access Management (IAM) to ensure secure code access to other AWS services. AWS Lambda runs your code within an Amazon Virtual Private Cloud (VPC) by default. Optionally, you can configure AWS Lambda resource access behind your own VPC in order to leverage custom security groups and network access control lists. This provides secure Lambda function access to your resources within a VPC. AWS Lambda is SOC, HIPAA, PCI, and ISO-compliant. For the latest in Lambda certification and compliance readiness, please see the full services in scope.
+
+Only pay for what you use
+    ---- With AWS Lambda, you pay for execution duration rather than server unit. When using Lambda functions, you only pay for requests served and the compute time required to run your code. Billing is metered in increments of one millisecond, enabling easy and cost-effective automatic scaling from a few requests per day to thousands per second. With Provisioned Concurrency, you pay for the amount of concurrency you configure and the duration that you configure it. When Provisioned Concurrency is enabled and your function is executed, you also pay for requests and execution duration. To learn more about pricing, please visit AWS Lambda Pricing.
+
+Flexible resource model
+    ---- Choose the amount of memory you want to allocate to your functions, and AWS Lambda allocates proportional CPU power, network bandwidth, and disk input/output (I/O).
+
+Integrate Lambda with your favorite operational tools
+    ---- AWS Lambda extensions enable easy integration with your favorite monitoring, observability, security, and governance tools. Lambda invokes your function in an execution environment, which provides a secure and isolated runtime where your function code is executed. Lambda extensions run within Lambda’s execution environment, alongside your function code. Lambda extensions can use the AWS Lambda Telemetry API to capture fine grained diagnostic information, such as logs, metrics, and traces, directly from Lambda, and send them to a destination of your choice. You can also use extensions to integrate your preferred security agents with Lambda, all with no operational overhead and minimal impact to your function performance.
