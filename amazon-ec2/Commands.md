@@ -21,3 +21,5 @@
 
 #### Copy a file from an EC2 instance to my local machine
 ##### scp -i <my-key-pair.pem> ec2-user@<public-ip-or-dns>:/path/to/source-file.txt local-destination/
+
+### Creating an Amazon Machine Image (AMI) => aws ec2 create-image --instance-id <instance-id> --name "My server" --description "An AMI for my server"
