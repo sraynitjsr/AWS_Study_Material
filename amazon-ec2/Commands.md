@@ -11,3 +11,4 @@
 
 ### Rebooting an EC2 Instance => aws ec2 reboot-instances --instance-ids <instance-id>
 
+### Creating a Security Group => aws ec2 create-security-group --group-name <security-group-name> --description "My security group"
