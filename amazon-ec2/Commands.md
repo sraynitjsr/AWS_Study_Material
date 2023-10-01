@@ -7,4 +7,4 @@
 ### Terminating an EC2 Instance => aws ec2 terminate-instances --instance-ids <instance-id>
 
 ### Start and Stop an EC2 Instance => aws ec2 start-instances --instance-ids <instance-id>
-###                                => aws ec2 stop-instances --instance-ids <instance-id>
+### aws ec2 stop-instances --instance-ids <instance-id>
