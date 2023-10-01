@@ -4,3 +4,4 @@
 
 ### Creating an EC2 Instance => aws ec2 run-instances --image-id <my-ami-id> --instance-type <instance-type> --key-name <my-key-pair-name>
 
+### Terminating an EC2 Instance => aws ec2 terminate-instances --instance-ids <instance-id>
