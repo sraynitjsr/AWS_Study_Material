@@ -9,3 +9,5 @@
 ### Start and Stop an EC2 Instance => aws ec2 start-instances --instance-ids <instance-id>
 ###                                   aws ec2 stop-instances --instance-ids <instance-id>
 
+### Rebooting an EC2 Instance => aws ec2 reboot-instances --instance-ids <instance-id>
+
