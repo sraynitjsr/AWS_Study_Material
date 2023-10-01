@@ -14,3 +14,10 @@
 ### Creating a Security Group => aws ec2 create-security-group --group-name <security-group-name> --description "My security group"
 
 ### Adding Rules to a Security Group => aws ec2 authorize-security-group-ingress --group-id <security-group-id> --protocol tcp --port 22 --cidr <my-ip-range>
+
+### Connecting to an EC2 Instance => 
+#### Copy a local file to an EC2 instance
+##### scp -i <my-key-pair.pem> local-file.txt ec2-user@<public-ip-or-dns>:/path/to/destination
+
+#### Copy a file from an EC2 instance to my local machine
+##### scp -i <my-key-pair.pem> ec2-user@<public-ip-or-dns>:/path/to/source-file.txt local-destination/
