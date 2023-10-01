@@ -12,3 +12,5 @@
 ### Rebooting an EC2 Instance => aws ec2 reboot-instances --instance-ids <instance-id>
 
 ### Creating a Security Group => aws ec2 create-security-group --group-name <security-group-name> --description "My security group"
+
+### Adding Rules to a Security Group => aws ec2 authorize-security-group-ingress --group-id <security-group-id> --protocol tcp --port 22 --cidr <my-ip-range>
