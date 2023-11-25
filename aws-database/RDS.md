@@ -13,3 +13,8 @@
 
 ###### Amazon RDS supports several popular relational database engines, including MySQL, PostgreSQL, MariaDB, Oracle, and Microsoft SQL Server.
 ###### This flexibility allows users to choose the database engine that best fits their application requirements.
+
+#### High Availability:-
+
+###### Amazon RDS provides features for high availability, such as automatic failover for multi-AZ (Availability Zone) deployments.
+###### Multi-AZ deployments involve maintaining a standby replica in a different availability zone to ensure database availability in the event of a failure.
